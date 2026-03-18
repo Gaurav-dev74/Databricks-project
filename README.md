@@ -1,18 +1,17 @@
-# Databricks Data Engineering Projects 🚀
+# Databricks Data Projects 🚀
 
 ## 📌 Overview
 
-This repository contains multiple **Data Engineering projects built using Databricks, PySpark, and SQL**.
-The projects focus on **ETL pipelines, data transformation, and analytics-ready datasets**.
+This repository contains **data analysis projects built using Databricks Community Edition**.
+The projects focus on **data processing, transformation, and dashboard creation** using PySpark and SQL.
 
 ---
 
 ## ⚙️ Tech Stack
 
+* Databricks (Community Edition)
 * PySpark
 * SQL
-* Databricks (Community Edition)
-* Delta Lake
 * Python
 
 ---
@@ -21,53 +20,50 @@ The projects focus on **ETL pipelines, data transformation, and analytics-ready 
 
 ### 1. Superstore Analysis
 
-* Performed data cleaning and transformation on retail dataset
-* Built ETL pipeline using PySpark
-* Generated insights like sales, profit, and trends
-
-### 2. Adidas Sales Analysis
-
-* Processed sales data from CSV files
-* Applied transformations using Spark
-* Prepared dataset for dashboard/reporting
+* Loaded dataset from local CSV file into Databricks
+* Performed data cleaning and transformations using PySpark
+* Used SQL queries for analysis
+* Created dashboard for sales and profit insights
 
 ---
 
-## 🔄 ETL Workflow
+### 2. Adidas Sales Analysis
 
-1. Data Ingestion (CSV files)
-2. Data Cleaning & Transformation
-3. Aggregations using PySpark
-4. Output for analytics/dashboard
+* Processed Adidas sales dataset using PySpark
+* Performed data transformations and aggregations
+* Used SQL for analytical queries
+* Built dashboard for sales performance visualization
+
+---
+
+## 📊 Key Features
+
+* Data processing using **PySpark DataFrames**
+* Querying using **Spark SQL**
+* Dashboard creation for business insights
+* Hands-on experience with **Databricks notebooks**
 
 ---
 
 ## 📁 Repository Structure
 
 Databricks-project/
-├── Superstore/
-├── Adidas_sales/
+├── Superstore_project.ipynb
+├── superstore.csv
+├── Adidas sales project.ipynb
+├── Adidas US Sales Datasets.csv
 ├── README.md
 
 ---
 
-## 🚀 Key Highlights
+## ⚠️ Notes
 
-* Hands-on experience with **Spark transformations**
-* Built real-world **ETL pipelines**
-* Worked with structured datasets
-* Optimized queries using PySpark
+* Projects were developed using **Databricks Community Edition**
+* Data was uploaded from local machine (CSV files)
+* No use of Delta Lake in current implementation
 
 ---
 
 ## 👨‍💻 Author
 
 **Gaurav Vashishth**
-
----
-
-## ⭐ Future Improvements
-
-* Add Delta Lake integration
-* Automate pipelines
-* Connect with BI tools (Power BI/Tableau)
